@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Prova.Models.Placar>
+
+@{
+    int i=1;
+    ViewData["Title"] = "Ranking";
+}
+
+<h1>Ranking</h1>
+<table class="table">
+<thead>
+    <tr>
+        <th>
+            Posição
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Jogador)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pontos)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataPonto)
+        </th>
+        <th></th>
+    </tr>
+</thead>
+<tbody>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @i
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Jogador.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pontos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataPonto)
+            </td>
+            
+        </tr>
+      
+            i = i + 1;
+      
+    }
+</tbody>
+</table>
+
+

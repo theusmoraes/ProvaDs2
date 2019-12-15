@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prova", "Prova\Prova.csproj", "{F603F26C-CE2E-4D57-93C2-3F1C25E19B17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F603F26C-CE2E-4D57-93C2-3F1C25E19B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F603F26C-CE2E-4D57-93C2-3F1C25E19B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F603F26C-CE2E-4D57-93C2-3F1C25E19B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F603F26C-CE2E-4D57-93C2-3F1C25E19B17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32E3C3F0-D7B4-41AB-84EE-96CE8EF8FD35}
+	EndGlobalSection
+EndGlobal
